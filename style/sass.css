@@ -429,17 +429,17 @@ nav ul li {
 
 .fotosNosotros {
   height: 200px;
-  width: 350px;
+  width: 300px;
   border: none;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .row {
+  --bs-gutter-x: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   -webkit-box-orient: vertical;
@@ -462,8 +462,35 @@ nav ul li {
   font-family: unset;
   margin-top: 50px;
 }
-
+.footer--estilo_nosotros{
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+  grid-template-rows: auto;
+  grid-area:inherit;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: dimgray;
+  padding-top: 10px;
+}
+.footer__iconos--nosotros {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 30px;
+  background-color: dimgray;
+  width: 100%;
+}
 /* --------------------------------------CONTACTO------------------------- */
+.footer--estilo_contacto{
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+  grid-template-rows: auto;
+  grid-area:inherit;
+  margin-top: 10%;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: dimgray;
+  padding-top: 10px;
+}
 /* ----------------------------------OFERTAS---------------------------- */
 .galeria1 {
   margin: 10px 20px;
@@ -541,7 +568,17 @@ nav ul li {
 .text {
   text-decoration: line-through;
 }
-
+.footer--estilo_ofertas{
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+  grid-template-rows: auto;
+  grid-area:inherit;
+  margin-top: 30%;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: dimgray;
+  padding-top: 10px;
+}
 /* ----------------------------PRODUCTOS------------------- */
 .galeria1 {
   margin: 10px 20px;
@@ -609,5 +646,16 @@ nav ul li {
   text-align: center;
   text-shadow: 2px 2px 5px salmon;
   padding: 10px;
+}
+.footer--estilo_productos{
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+  grid-template-rows: auto;
+  grid-area:inherit;
+  margin-top: 30%;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: dimgray;
+  padding-top: 10px;
 }
 /*# sourceMappingURL=sass.css.map */

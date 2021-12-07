@@ -310,7 +310,6 @@ nav ul li{
 }
 .row{
     display: flex;
-    padding: 5px;
     flex-wrap: nowrap;
     flex-direction: column;
     background-color: violet;
@@ -322,8 +321,29 @@ nav ul li{
     font-family:unset;
     margin-top: 50px;
 }
+.footer--estilo_nosotros{
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: auto;
+    grid-area:inherit;
+    margin-top: 10%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: dimgray;
+    padding-top: 10px;
+}
 /* --------------------------------------CONTACTO------------------------- */
-
+.footer--estilo_contacto{
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: auto;
+    grid-area:inherit;
+    margin-top: 10%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: dimgray;
+    padding-top: 10px;
+}
 /* ----------------------------------OFERTAS---------------------------- */
 .galeria1{
     margin: 10px 20px;
